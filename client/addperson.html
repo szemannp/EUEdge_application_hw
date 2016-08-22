@@ -1,0 +1,46 @@
+<script type="text/ng-template" id="addperson.html">
+  <div class="container-fluid">
+    <div class="modal-header">
+      <h5 class="modal-title" id="modal-title">Add new person</h5>
+    </div>
+    <div class="modal-body" id="modal-body">
+      <form class="form-horizontal" name="addNewPerson">
+        <div class="form-group">
+          <label for="inputName" class="col-sm-2 control-label">Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="newPerson.name" ng-required="true" id="inputName" placeholder="Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputJob" class="col-sm-2 control-label">Job</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="newPerson.job" id="inputJob" placeholder="Job">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAge" class="col-sm-2 control-label">Age</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control" ng-model="newPerson.age" ng-required="true" id="inputAge" placeholder="Age">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputNick" class="col-sm-2 control-label">Nickname</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" ng-model="newPerson.nick" ng-required="true" id="inputNick" placeholder="Nickname">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label><input type="checkbox" ng-model="newPerson.employee" value="false">Employee</label>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-primary" type="submit" ng-click="submitForm(newPerson)">Ok</button>
+        <button class="btn btn-warning" type="button" ng-click="cancelForm()">Cancel</button>
+    </div>
+  </form>
+  </div>
+</script>

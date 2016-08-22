@@ -1,0 +1,22 @@
+<table class="table table-condensed table-hover table-striped">
+  <thead class="thead-inverse">
+    <tr>
+      <th>
+        Name (job title)
+      </th>
+      <th>Age</th>
+      <th>Nickname</th>
+      <th>Employee</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody class="data-container">
+    <tr ng-repeat="person in persons">
+      <td class="name"> {{person.name}} <br> {{person.job}} </td>
+      <td class="age"> {{person.age}} </td>
+      <td class="nickname"> {{person.nick}} </td>
+      <td class="employee"><input type="checkbox" ng-model="person.employee"/></td>
+      <td class="delete"><a href="" ng-click="deletePerson(person)">delete</a></td>
+    </tr>
+  </tbody>
+</table>
