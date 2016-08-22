@@ -7,10 +7,10 @@ ___
 
 
 ## How to deploy/use it:
-* clone the repo ```g```
+* clone this repository ```https://github.com/szemannp/EUEdge_application_hw.git```
 * run ```npm install```
-open the project folder with Atom Editor
-use ```ctrl-shift-3``` to instantiate a live server
-click on ```client folder```
-enjoy!
+* open the project folder with Atom Editor
+* use ```ctrl-shift-3``` to instantiate a live server
+* click on ```client folder```
+* enjoy!
 ___
