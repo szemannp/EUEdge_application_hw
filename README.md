@@ -12,4 +12,5 @@ ___
 * open the project folder with Atom Editor
 * use ```ctrl-shift-3``` to instantiate a live server
 * click on ```client``` folder
+* run ```karma start``` command in your npm console to see the tests working
 * enjoy!
