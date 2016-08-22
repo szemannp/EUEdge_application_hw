@@ -11,6 +11,5 @@ ___
 * run ```npm install```
 * open the project folder with Atom Editor
 * use ```ctrl-shift-3``` to instantiate a live server
-* click on ```client folder```
+* click on ```client``` folder
 * enjoy!
-___
