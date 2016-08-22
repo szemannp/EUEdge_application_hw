@@ -11,14 +11,26 @@
   "dependencies": {
     "angular": "^1.5.8",
     "angular-animate": "^1.5.8",
-    "angular-route": "^1.5.8",
-    "angular-ui-router": "^0.3.1"
+    "angular-bootstrap": "^0.12.2",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7"
   },
   "devDependencies": {
+    "angular-mocks": "^1.5.8",
     "babel-eslint": "^6.1.2",
+    "browser-sync": "^2.14.0",
+    "browserify": "^13.1.0",
     "eslint": "^2.13.1",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.9.2",
-    "eslint-plugin-jsx-a11y": "^1.5.3"
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "i": "^0.3.5",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-browserify": "^5.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "watchify": "^3.7.0"
   }
 }
