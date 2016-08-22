@@ -13,4 +13,4 @@ ___
 * use ```ctrl-shift-3``` to instantiate a live server
 * click on ```client folder```
 * enjoy!
-___
+* ___
